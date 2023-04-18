@@ -1,0 +1,73 @@
+:root{
+    --body_bg: #101010;
+}
+
+body{
+    background-color: var(--body_bg);
+    
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-right: 10px;
+    
+}
+
+ul li{
+    display: inline;
+    margin: 10px;
+    background-color: red;
+    padding: 10px;
+
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navigation img{
+    max-height: 50px;
+    margin: auto; 
+    /* margin auto is used to center items such that they have equal space from the left
+    and right */
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    
+}
+
+ul li button{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+/* # is used to select an id
+    . is used to select a class
+*/
+
+#bg-area{
+    background: url(images/ifortify-shield-compressed.png);
+    background-size: contain;/* this ensures that the entire image is shown*/
+    /* */
+    background-repeat: no-repeat;/* removes repetition of the image*/
+    background-position: right;/* this pushes the image to the right */
+    height: 100vh;
+    display: relative;
+
+}
+
+#txt-1{
+    color: white;
+    display: absolute;
+    transform: translate(10%, 90%);
+}
